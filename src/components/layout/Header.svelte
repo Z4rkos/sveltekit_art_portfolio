@@ -15,6 +15,7 @@
     .header-container {
         margin: 0 auto;
         border-bottom: 1px solid black;
+        margin-bottom: 5%;
     }
 
     .title-container {

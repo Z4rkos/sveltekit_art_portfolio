@@ -20,6 +20,7 @@
     @tailwind utilities;
 
     .container {
+        width: 70%;
         margin: 0 auto;
         text-align: center;
         height: 100%;
@@ -28,5 +29,11 @@
 
     .content {
         padding-bottom: 15px;
+    }
+
+    @media(max-width: 750px) {
+        .container {
+            width: 80%;
+        }
     }
 </style>

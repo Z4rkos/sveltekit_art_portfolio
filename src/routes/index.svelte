@@ -8,7 +8,7 @@
 
 <div class="container">
     <h1>ABOUT ME</h1>
-    <img src="src/images/Ku-mor.jpg" alt="">
+    <img src="/images/Ku-mor.jpg" alt="">
     <p class="text">
         I am an artist based at Nesodden outside Oslo-Norway. I work with artworks using text, installations for land art and photography. I crocket, use found objects and collaborate with other artists. I have also worked with documentary photo and film, documenting for others and worked as a freelancer in photography and video. 
 Feel free to contact me for prices and questions.

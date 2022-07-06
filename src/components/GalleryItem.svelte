@@ -1,11 +1,12 @@
 <script>
     export let title;
     export let image;
+    export let href;
 </script>
 
 
 <div class="container">
-    <a class="link" href="/"></a>
+    <a class="link" href={href}></a>
     <img src={image} alt="">
     <p>{title}</p>
 </div>
@@ -30,8 +31,6 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        max-width: 33%;
-        padding: 0 20px;
         margin-bottom: 60px;
         position: relative;
     }

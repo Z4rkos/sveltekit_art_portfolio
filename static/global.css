@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    font-family: Impact, Charcoal, sans-serif;
+    letter-spacing: 0.06em;
+    background-color: #fff9f9;
+}
+
+body {
+    position: relative;
+}

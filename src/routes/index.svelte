@@ -1,5 +1,3 @@
-<script>
-</script>
 
 <svelte:head>
     <title>Anita Hillestad</title>

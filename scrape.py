@@ -42,28 +42,19 @@ def download_images(images, folder_name):
             # Here we will use exception handling
 
             # first we will search for "data-srcset" in img tag
+
             try:
-                # In image tag ,searching for "data-srcset"
-                image_link = image["data-srcset"]
-
-            # then we will search for "data-src" in img
-            # tag and so on..
+                # In image tag ,searching for "data-src"
+                image_link = image["data-src"]
             except:
-                try:
-                    # In image tag ,searching for "data-src"
-                    image_link = image["data-src"]
-                except:
-                    try:
-                        # In image tag ,searching for "data-fallback-src"
-                        image_link = image["data-fallback-src"]
-                    except:
-                        try:
-                            # In image tag ,searching for "src"
-                            image_link = image["src"]
+                pass
+                # try:
+                # In image tag ,searching for "src"
+                #     image_link = image["src"]
 
-                        # if no Source URL found
-                        except:
-                            pass
+                # # if no Source URL found
+                # except:
+                #     pass
 
             # After getting Image Source URL
             # We will try to get the content of image
@@ -114,4 +105,4 @@ def main(url):
 
 
 # CALL MAIN FUNCTION
-main("https://www.anitahillestad.com/documentaries#/brakkebygrenda-to-2000/")
+main("https://www.anitahillestad.com/land-art#/prosessdokumentasjon-av-uteromsprosjektet-stoy/")

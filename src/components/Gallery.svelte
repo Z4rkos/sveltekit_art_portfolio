@@ -1,11 +1,10 @@
 <script>
-    import GalleryItem from "./GalleryItem.svelte";
-
+    import { fade } from "svelte/transition"
     export let columns = 3;
 </script>
 
 
-<div class="container" style="grid-template-columns:repeat({columns}, auto);">
+<div transition:fade="{{duration:160}}" class="container" style="grid-template-columns:repeat({columns}, auto);">
     <slot></slot>
 </div>
 

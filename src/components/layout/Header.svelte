@@ -6,8 +6,8 @@
     <div class="title-container">
         <a class="title" href="/">ANITA HILLESTAD</a>
         <p>VISUAL ARTIST AND VISUAL ACTIVIST</p>
+        <Nav />
     </div>
-    <Nav />
 </div>
 
 
@@ -30,6 +30,7 @@
     .title {
         font-size: 35px;
         letter-spacing: 0.5em;
+        font-weight: 400;
     }
 
 </style>

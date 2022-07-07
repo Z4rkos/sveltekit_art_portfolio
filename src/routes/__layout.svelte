@@ -7,6 +7,7 @@
 
 <div class="container">
     <Header />
+
     <div class="content">
         <slot></slot>
     </div>
@@ -15,9 +16,12 @@
 
 
 <style>
+    @import "/static/global.css";
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
+
+    
 
     .container {
         width: 70%;
@@ -26,6 +30,7 @@
         height: 100%;
         position: relative;
         font-family: Impact, Charcoal, sans-serif;
+        
 
     }
 

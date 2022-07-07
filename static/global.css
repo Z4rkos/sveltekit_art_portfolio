@@ -5,10 +5,10 @@
 html, body {
     margin: 0 auto;
     height: 100%;
-    width: 80%;
     font-family: Impact, Charcoal, sans-serif;
+    font-weight: 300;
     letter-spacing: 0.06em;
-    background-color: #fff9f9;
+    background-color: #eeeeee5e;
 }
 
 body {

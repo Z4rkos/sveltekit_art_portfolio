@@ -10,12 +10,13 @@
     <Nav />
 </div>
 
+
 <style>
 
     .header-container {
         margin: 0 auto;
         border-bottom: 1px solid black;
-        margin-bottom: 5%;
+        margin-bottom: 50px;
     }
 
     .title-container {

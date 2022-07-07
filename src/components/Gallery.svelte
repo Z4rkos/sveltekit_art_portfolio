@@ -25,8 +25,7 @@
 
     @media(max-width: 750px) {
         .container {
-            grid-template-columns: auto;
-
+            display: block;
         }   
     }
 </style>

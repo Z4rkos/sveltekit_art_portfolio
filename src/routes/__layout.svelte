@@ -25,6 +25,8 @@
         text-align: center;
         height: 100%;
         position: relative;
+        font-family: Impact, Charcoal, sans-serif;
+
     }
 
     .content {

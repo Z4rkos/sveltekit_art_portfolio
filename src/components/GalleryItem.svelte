@@ -17,6 +17,7 @@
     img {
         padding-bottom: 20px;
         transition: opacity 0.4s;
+        height: fit-content;
 
     }
 
@@ -25,14 +26,18 @@
         margin: 0;
         overflow: hidden;
         color: #333;
+        font-weight: 300;
     }
 
     .container {
+        min-width: 33%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin-bottom: 60px;
         position: relative;
+        padding-bottom: 5%;
+        overflow: hidden;
+
     }
 
     .container:hover img {

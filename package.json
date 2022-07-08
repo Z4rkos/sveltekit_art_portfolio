@@ -30,6 +30,7 @@
 	"type": "module",
 	"dependencies": {
 		"svelte-audio-player": "^0.0.1",
-		"svelte-media-query": "^1.1.2"
+		"svelte-media-query": "^1.1.2",
+		"svelte-slider": "^1.0.1"
 	}
 }

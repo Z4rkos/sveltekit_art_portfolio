@@ -1,6 +1,6 @@
 <script>
-    import Gallery from "../components/Gallery.svelte";
-    import GalleryItem from "../components/GalleryItem.svelte";
+    import Gallery from "../components/gallery/Gallery.svelte";
+    import GalleryItem from "../components/gallery/GalleryItem.svelte";
 
 
 </script>

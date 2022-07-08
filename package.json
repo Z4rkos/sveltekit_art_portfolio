@@ -29,8 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@emotion/css": "^11.9.0",
-		"@emotion/styled": "^11.9.3",
+		"svelte-audio-player": "^0.0.1",
 		"svelte-media-query": "^1.1.2"
 	}
 }

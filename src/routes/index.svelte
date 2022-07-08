@@ -15,9 +15,7 @@
         I am an artist based at Nesodden outside Oslo-Norway. I work with artworks using text, installations for land art and photography. I crocket, use found objects and collaborate with other artists. I have also worked with documentary photo and film, documenting for others and worked as a freelancer in photography and video. 
 Feel free to <a href="/contact_me"> <i>contact me</i></a>  for prices and questions.
     </p>
-
 </div>
-
 
 
 <style>

@@ -8,7 +8,6 @@
     let time = 0; 
     let paused = true;
 
-
     const togglePlay = () => {
         paused = !paused;
 	}
@@ -24,8 +23,6 @@
 
 		return `${minutes}:${seconds}`;
     }
-
-    const setTime = () => time = document.getElementById("progress").value
 
 </script>
 
@@ -51,10 +48,9 @@
         type="range" 
         min="0" 
         max={duration} 
-        value={time} 
+        bind:value={time} 
         step="1"
-        on:input={setTime}
-        />
+    />
 
 
 <!--
@@ -81,7 +77,7 @@
         /* Materials Icons */
     .material-icons {
         font-size: 28px;
-        color: #a7a7a7;
+        color: #ffffff;
     }
 
     /* Container */
@@ -92,23 +88,31 @@
         align-items: center;
         box-sizing: border-box;
         max-width: 800px;
-        padding: 10px;
+        padding: 17px;
+        padding-left: 25px;
         margin-bottom: 50px;
         border-radius: 10px;
         background: #484848;
+        position: relative;
     }
 
 
     /* Play/Puse Button */
-    .playPause {
+    .playPauseIcon {
         padding: 0;
         margin: 0;
         background: 0;
         border: 0;
         cursor: pointer;
+
+        /* Im sure there is a better way to do this, but the bastard refused to be centered otherwise. */
+        position: absolute;
+        top: 13px;
+        padding-right: 10px;
+        transform: translateX(-50%);
     }
 
-    /* (D) TIME */
+    /* Time */
     .timeContainer {
         font-size: 14px;
         color: #cbcbcb;
@@ -128,10 +132,10 @@
 
     /* Custom Slider Track */
     .container input[type=range]::-webkit-slider-runnable-track {
-        background: #626262;
+        background: #8f8f8f;
     }
     .container input[type=range]::-moz-range-track {
-        background: #626262;
+        background: #8f8f8f;
     }
 
     /* Custom Slider Button*/
@@ -140,14 +144,12 @@
         border-radius: 50%;
         border: 0;
         background: #fff;
-        cursor: pointer;
     }
     .container input[type=range]::-moz-range-thumb {
         width: 16px; height: 16px;
         border-radius: 50%;
         border: 0;
         background: #fff;
-        cursor: ew-resize;
     }
 
     /* (F) VOLUME */

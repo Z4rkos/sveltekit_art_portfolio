@@ -4,10 +4,6 @@
 
     let hidden = true;
 
-    const toggleNav = () => {
-        hidden = !hidden;
-    };
-    $: symbol = hidden ? "▼" : "▲";
 </script>
 
 <MediaQuery query="(max-width: 1100px)" let:matches>
@@ -26,7 +22,9 @@
                 <a href="/cv">CV</a>
             </nav>
         {/if}
-        <button on:click={toggleNav}>{symbol}</button>
+        <button on:click={() => hidden = !hidden}>
+            {hidden ? "▼" : "▲"}
+        </button>
     {:else}
         <nav>
             <a href="/">ABOUT</a>

@@ -8,9 +8,8 @@
     let time = 0; 
     let paused = true;
 
-    const togglePlay = () => {
-        paused = !paused;
-	}
+    const togglePlay = () => paused = !paused;
+
     $: playPauseIcon = paused ? "play_arrow" : "pause";
 
 
@@ -32,7 +31,7 @@
 <h3>{title}</h3>
 <div class="container">
     
-    <button on:click={togglePlay} class="playPause">
+    <button on:click={() => paused = !paused} class="playPause">
         <span class="playPauseIcon material-icons">
         {playPauseIcon}
         </span>

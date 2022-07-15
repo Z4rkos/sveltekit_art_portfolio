@@ -1,5 +1,5 @@
 <script>
-    import GalleryPage from "../../components/GalleryPage.svelte";
+    import GalleryPage from "../../components/gallery/GalleryPage.svelte";
 
     let imagePaths = [
         '../images/photos/frog/Frog-marry-2-sm.jpg',        

@@ -26,7 +26,7 @@
     h1 {
         font-size: 20px;
         padding: 20px;
-        font-weight: 290;
+        font-weight: 300;
     }
     p {
         font-size: 16px;

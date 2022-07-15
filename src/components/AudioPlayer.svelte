@@ -12,7 +12,7 @@
 
     $: playPauseIcon = paused ? "play_arrow" : "pause";
 
-
+    
 	const format = (seconds) => {
 		if (isNaN(seconds)) return '...';
 
@@ -82,7 +82,7 @@
     /* Container */
     .container {
         margin: auto;
-        font-family: arial, sans-serif;
+        font-weight: 500;
         display: flex;
         align-items: center;
         box-sizing: border-box;
